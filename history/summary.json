@@ -4,19 +4,19 @@
     "url": "https://tgstation13.org",
     "icon": "https://icons.duckduckgo.com/ip3/tgstation13.org.ico",
     "slug": "home-page",
-    "status": "down",
-    "uptime": "0.00%",
-    "uptimeDay": "0.00%",
-    "uptimeWeek": "0.00%",
-    "uptimeMonth": "0.00%",
-    "uptimeYear": "0.00%",
-    "time": 187,
-    "timeDay": 187,
-    "timeWeek": 187,
-    "timeMonth": 187,
-    "timeYear": 187,
+    "status": "up",
+    "uptime": "0.09%",
+    "uptimeDay": "0.09%",
+    "uptimeWeek": "0.09%",
+    "uptimeMonth": "0.09%",
+    "uptimeYear": "0.09%",
+    "time": 182,
+    "timeDay": 182,
+    "timeWeek": 182,
+    "timeMonth": 182,
+    "timeYear": 182,
     "dailyMinutesDown": {
-      "2024-08-21": 42
+      "2024-08-21": 179
     }
   },
   {
@@ -25,18 +25,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/tgstation13.org.ico",
     "slug": "wiki",
     "status": "down",
-    "uptime": "0.03%",
-    "uptimeDay": "0.03%",
-    "uptimeWeek": "0.03%",
-    "uptimeMonth": "0.03%",
-    "uptimeYear": "0.03%",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
     "time": 14,
     "timeDay": 14,
     "timeWeek": 14,
     "timeMonth": 14,
     "timeYear": 14,
     "dailyMinutesDown": {
-      "2024-08-21": 42
+      "2024-08-21": 179
     }
   },
   {
@@ -56,7 +56,7 @@
     "timeMonth": 12,
     "timeYear": 12,
     "dailyMinutesDown": {
-      "2024-08-21": 42
+      "2024-08-21": 179
     }
   },
   {
@@ -65,18 +65,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "vpn",
     "status": "down",
-    "uptime": "1.19%",
-    "uptimeDay": "1.19%",
-    "uptimeWeek": "1.19%",
-    "uptimeMonth": "1.19%",
-    "uptimeYear": "1.19%",
+    "uptime": "0.28%",
+    "uptimeDay": "0.28%",
+    "uptimeWeek": "0.28%",
+    "uptimeMonth": "0.28%",
+    "uptimeYear": "0.28%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-08-21": 42
+      "2024-08-21": 179
     }
   },
   {
@@ -121,11 +121,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "tts-generation",
     "status": "up",
-    "uptime": "1.28%",
-    "uptimeDay": "1.28%",
-    "uptimeWeek": "1.28%",
-    "uptimeMonth": "1.28%",
-    "uptimeYear": "1.28%",
+    "uptime": "76.94%",
+    "uptimeDay": "76.94%",
+    "uptimeWeek": "76.94%",
+    "uptimeMonth": "76.94%",
+    "uptimeYear": "76.94%",
     "time": 139,
     "timeDay": 139,
     "timeWeek": 139,
@@ -285,18 +285,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/78.46.253.198.ico",
     "slug": "d-do-s-relay-eu-c-1-1",
     "status": "degraded",
-    "uptime": "0.05%",
-    "uptimeDay": "0.05%",
-    "uptimeWeek": "0.05%",
-    "uptimeMonth": "0.05%",
-    "uptimeYear": "0.05%",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-08-21": 42
+      "2024-08-21": 179
     }
   },
   {
@@ -316,7 +316,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-08-21": 42
+      "2024-08-21": 179
     }
   },
   {
@@ -324,6 +324,26 @@
     "url": "http://49.13.124.167:42069/;csv",
     "icon": "https://icons.duckduckgo.com/ip3/49.13.124.167.ico",
     "slug": "d-do-s-relay-eu-c-1-3",
+    "status": "degraded",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2024-08-21": 179
+    }
+  },
+  {
+    "name": "DDoS-Relay EU-C-1-4",
+    "url": "http://188.245.50.246:42069/;csv",
+    "icon": "https://icons.duckduckgo.com/ip3/188.245.50.246.ico",
+    "slug": "d-do-s-relay-eu-c-1-4",
     "status": "degraded",
     "uptime": "0.04%",
     "uptimeDay": "0.04%",
@@ -336,27 +356,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-08-21": 42
-    }
-  },
-  {
-    "name": "DDoS-Relay EU-C-1-4",
-    "url": "http://188.245.50.246:42069/;csv",
-    "icon": "https://icons.duckduckgo.com/ip3/188.245.50.246.ico",
-    "slug": "d-do-s-relay-eu-c-1-4",
-    "status": "degraded",
-    "uptime": "0.19%",
-    "uptimeDay": "0.19%",
-    "uptimeWeek": "0.19%",
-    "uptimeMonth": "0.19%",
-    "uptimeYear": "0.19%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
-    "dailyMinutesDown": {
-      "2024-08-21": 42
+      "2024-08-21": 179
     }
   },
   {
@@ -383,18 +383,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/128.140.77.59.ico",
     "slug": "d-do-s-relay-eu-c-2-2",
     "status": "degraded",
-    "uptime": "0.04%",
-    "uptimeDay": "0.04%",
-    "uptimeWeek": "0.04%",
-    "uptimeMonth": "0.04%",
-    "uptimeYear": "0.04%",
+    "uptime": "0.01%",
+    "uptimeDay": "0.01%",
+    "uptimeWeek": "0.01%",
+    "uptimeMonth": "0.01%",
+    "uptimeYear": "0.01%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-08-21": 41
+      "2024-08-21": 179
     }
   },
   {
