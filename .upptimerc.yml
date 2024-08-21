@@ -30,7 +30,7 @@ sites:
     - "Content-Type: application/json"
     - "Accept: application/json"
     - "Authorization: $SECRET_TTS_API_KEY"
-    body: '{ "voice":"Man (NEET)", "text":"Help Maint" }'
+    body: '{ "text":"Help Maint" }'
     maxResponseTime: 750
   - name: Game Server Sybil
     url: sybil.game.tgstation13.org
