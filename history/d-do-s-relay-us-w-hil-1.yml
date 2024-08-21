@@ -1,7 +1,7 @@
 url: http://5.78.91.168:42069/;csv
-status: up
+status: degraded
 code: 200
-responseTime: 140
-lastUpdated: 2024-08-21T21:11:25.544Z
+responseTime: 142
+lastUpdated: 2024-08-21T21:23:42.651Z
 startTime: 2024-08-21T13:52:55.552Z
 generator: Upptime <https://github.com/upptime/upptime>
