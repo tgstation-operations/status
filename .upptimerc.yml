@@ -32,12 +32,16 @@ sites:
       - 200
       - 201
       - 403
+    assignees:
+      - MrStonedOne
   - name: TTS API
     url: $SECRET_TTS_API_URL
     headers:
     - "Authorization: $SECRET_TTS_API_KEY"
     __dangerous__body_degraded_if_text_missing: "OK: "
     __dangerous__body_down_if_text_missing: ":"
+    assignees:
+      - MrStonedOne
   - name: TTS Generation
     url: $SECRET_TTS_TEST_GEN_URL
     headers:
@@ -52,6 +56,8 @@ sites:
     url: sybil.game.tgstation13.org
     port: 1337
     check: "tcp-ping"
+    assignees:
+      - MrStonedOne
   - name: Game Server Basil
     url: Basil.game.tgstation13.org
     port: 2337
@@ -68,10 +74,14 @@ sites:
     url: TGMC.game.tgstation13.org
     port: 5337
     check: "tcp-ping"
+    assignees:
+      - MrStonedOne
   - name: Game Server Campbell
     url: Campbell.game.tgstation13.org
     port: 6337
     check: "tcp-ping"
+    assignees:
+      - MrStonedOne
   - name: Game Server Events EU
     url: terry.game.tgstation13.org
     port: 4337
@@ -80,54 +90,54 @@ sites:
     url: basil.game.tgstation13.org
     port: 4447
     check: "tcp-ping"
-  - name: DDoS-Relay EU-C-1-1
+  - name: DDoS-Relay EU-C-fsn1-5
     url: http://78.46.253.198:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
-    __dangerous__body_down_if_text_missing: ","
-  - name: DDoS-Relay EU-C-1-2
+    __dangerous__body_down_if_text_missing: "OPEN"
+  - name: DDoS-Relay EU-C-fsn1-6
     url: http://167.235.254.130:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
-    __dangerous__body_down_if_text_missing: ","
-  - name: DDoS-Relay EU-C-1-3
+    __dangerous__body_down_if_text_missing: "OPEN"
+  - name: DDoS-Relay EU-C-fsn1-8
     url: http://49.13.124.167:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
-    __dangerous__body_down_if_text_missing: ","
-  - name: DDoS-Relay EU-C-1-4
+    __dangerous__body_down_if_text_missing: "OPEN"
+  - name: DDoS-Relay EU-C-fsn1-9
     url: http://188.245.50.246:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
-    __dangerous__body_down_if_text_missing: ","
-  - name: DDoS-Relay EU-C-2-1
+    __dangerous__body_down_if_text_missing: "OPEN"
+  - name: DDoS-Relay EU-C-nbg1-2
     url: http://128.140.75.62:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
-    __dangerous__body_down_if_text_missing: ","
-  - name: DDoS-Relay EU-C-2-2
+    __dangerous__body_down_if_text_missing: "OPEN"
+  - name: DDoS-Relay EU-C-nbg1-4
     url: http://128.140.77.59:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
-    __dangerous__body_down_if_text_missing: ","
-  - name: DDoS-Relay EU-C-2-3
+    __dangerous__body_down_if_text_missing: "OPEN"
+  - name: DDoS-Relay EU-C-nbg1-6
     url: http://188.245.105.186:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
-    __dangerous__body_down_if_text_missing: ","
-  - name: DDoS-Relay EU-N-1
+    __dangerous__body_down_if_text_missing: "OPEN"
+  - name: DDoS-Relay EU-N-hel1-2
     url: http://37.27.84.228:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
-    __dangerous__body_down_if_text_missing: ","
-  - name: DDoS-Relay US-E-1
+    __dangerous__body_down_if_text_missing: "OPEN"
+  - name: DDoS-Relay US-E-ash-1
     url: http://5.161.250.73:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
-    __dangerous__body_down_if_text_missing: ","
-  - name: DDoS-Relay US-E-2
+    __dangerous__body_down_if_text_missing: "OPEN"
+  - name: DDoS-Relay US-E-ash-2
     url: http://5.161.186.237:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
-    __dangerous__body_down_if_text_missing: ","
-  - name: DDoS-Relay US-W-1
+    __dangerous__body_down_if_text_missing: "OPEN"
+  - name: DDoS-Relay US-W-hil-1
     url: http://5.78.91.168:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
-    __dangerous__body_down_if_text_missing: ","
-  - name: DDoS-Relay US-W-2
+    __dangerous__body_down_if_text_missing: "OPEN"
+  - name: DDoS-Relay US-W-hil-2
     url: http://5.78.111.66:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
-    __dangerous__body_down_if_text_missing: ","
+    __dangerous__body_down_if_text_missing: "OPEN"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -155,9 +165,9 @@ workflowSchedule:
   graphs: "25 */4 * * *"
   responseTime: "20 */4 * * *"
   staticSite: "0 1 * * *"
-  summary: "30 */4 * * *"
+  summary: "30 * * * *"
   updateTemplate: "0 0 1 * *"
-  updates: "0 3 * * *"
+  updates: "0 3 31 2 1"
   uptime: "*/5 * * * *"
 
 # Upptime also supports notifications, assigning issues, and more
