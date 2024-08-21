@@ -5,11 +5,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/tgstation13.org.ico",
     "slug": "home-page",
     "status": "up",
-    "uptime": "35.79%",
-    "uptimeDay": "35.79%",
-    "uptimeWeek": "35.79%",
-    "uptimeMonth": "35.79%",
-    "uptimeYear": "35.79%",
+    "uptime": "38.06%",
+    "uptimeDay": "38.06%",
+    "uptimeWeek": "38.06%",
+    "uptimeMonth": "38.06%",
+    "uptimeYear": "38.06%",
     "time": 177,
     "timeDay": 177,
     "timeWeek": 177,
@@ -25,11 +25,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/tgstation13.org.ico",
     "slug": "wiki",
     "status": "up",
-    "uptime": "30.41%",
-    "uptimeDay": "30.41%",
-    "uptimeWeek": "30.41%",
-    "uptimeMonth": "30.41%",
-    "uptimeYear": "30.41%",
+    "uptime": "32.86%",
+    "uptimeDay": "32.86%",
+    "uptimeWeek": "32.86%",
+    "uptimeMonth": "32.86%",
+    "uptimeYear": "32.86%",
     "time": 102,
     "timeDay": 102,
     "timeWeek": 102,
@@ -45,11 +45,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/tgstation13.org.ico",
     "slug": "forum",
     "status": "up",
-    "uptime": "21.75%",
-    "uptimeDay": "21.75%",
-    "uptimeWeek": "21.75%",
-    "uptimeMonth": "21.75%",
-    "uptimeYear": "21.75%",
+    "uptime": "24.51%",
+    "uptimeDay": "24.51%",
+    "uptimeWeek": "24.51%",
+    "uptimeMonth": "24.51%",
+    "uptimeYear": "24.51%",
     "time": 44,
     "timeDay": 44,
     "timeWeek": 44,
@@ -65,11 +65,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "vpn",
     "status": "up",
-    "uptime": "30.58%",
-    "uptimeDay": "30.58%",
-    "uptimeWeek": "30.58%",
-    "uptimeMonth": "30.58%",
-    "uptimeYear": "30.58%",
+    "uptime": "33.03%",
+    "uptimeDay": "33.03%",
+    "uptimeWeek": "33.03%",
+    "uptimeMonth": "33.03%",
+    "uptimeYear": "33.03%",
     "time": 288,
     "timeDay": 288,
     "timeWeek": 288,
@@ -121,11 +121,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "tts-generation",
     "status": "up",
-    "uptime": "85.20%",
-    "uptimeDay": "85.20%",
-    "uptimeWeek": "85.20%",
-    "uptimeMonth": "85.20%",
-    "uptimeYear": "85.20%",
+    "uptime": "85.72%",
+    "uptimeDay": "85.72%",
+    "uptimeWeek": "85.72%",
+    "uptimeMonth": "85.72%",
+    "uptimeYear": "85.72%",
     "time": 228,
     "timeDay": 228,
     "timeWeek": 228,
@@ -296,7 +296,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-08-21": 279
+      "2024-08-21": 289
     }
   },
   {
@@ -316,7 +316,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-08-21": 279
+      "2024-08-21": 289
     }
   },
   {
@@ -324,19 +324,19 @@
     "url": "http://49.13.124.167:42069/;csv",
     "icon": "https://icons.duckduckgo.com/ip3/49.13.124.167.ico",
     "slug": "d-do-s-relay-eu-c-1-3",
-    "status": "up",
-    "uptime": "0.07%",
-    "uptimeDay": "0.07%",
-    "uptimeWeek": "0.07%",
-    "uptimeMonth": "0.07%",
-    "uptimeYear": "0.07%",
+    "status": "down",
+    "uptime": "3.36%",
+    "uptimeDay": "3.36%",
+    "uptimeWeek": "3.36%",
+    "uptimeMonth": "3.36%",
+    "uptimeYear": "3.36%",
     "time": 221,
     "timeDay": 221,
     "timeWeek": 221,
     "timeMonth": 221,
     "timeYear": 221,
     "dailyMinutesDown": {
-      "2024-08-21": 278
+      "2024-08-21": 279
     }
   },
   {
@@ -356,7 +356,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-08-21": 278
+      "2024-08-21": 289
     }
   },
   {
@@ -383,18 +383,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/128.140.77.59.ico",
     "slug": "d-do-s-relay-eu-c-2-2",
     "status": "down",
-    "uptime": "12.46%",
-    "uptimeDay": "12.46%",
-    "uptimeWeek": "12.46%",
-    "uptimeMonth": "12.46%",
-    "uptimeYear": "12.46%",
+    "uptime": "12.02%",
+    "uptimeDay": "12.02%",
+    "uptimeWeek": "12.02%",
+    "uptimeMonth": "12.02%",
+    "uptimeYear": "12.02%",
     "time": 268,
     "timeDay": 268,
     "timeWeek": 268,
     "timeMonth": 268,
     "timeYear": 268,
     "dailyMinutesDown": {
-      "2024-08-21": 244
+      "2024-08-21": 254
     }
   },
   {
