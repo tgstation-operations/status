@@ -45,7 +45,7 @@ sites:
     - "Accept: application/json"
     - "Authorization: $SECRET_TTS_API_KEY"
     body: '{ "text":"Help Maint" }'
-    maxResponseTime: 750
+    maxResponseTime: 500
     assignees:
       - MrStonedOne
   - name: Game Server Sybil
