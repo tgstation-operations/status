@@ -90,20 +90,20 @@ sites:
     url: basil.game.tgstation13.org
     port: 4447
     check: "tcp-ping"
-  - name: DDoS-Relay EU-C-fsn1-5
-    url: http://78.46.253.198:42069/;csv
+  - name: DDoS-Relay EU-C-fsn1-1
+    url: http://162.55.41.97:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
     __dangerous__body_down_if_text_missing: "OPEN"
-  - name: DDoS-Relay EU-C-fsn1-6
-    url: http://167.235.254.130:42069/;csv
+  - name: DDoS-Relay EU-C-fsn1-2
+    url: http://188.245.51.2:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
     __dangerous__body_down_if_text_missing: "OPEN"
-  - name: DDoS-Relay EU-C-fsn1-8
-    url: http://49.13.124.167:42069/;csv
+  - name: DDoS-Relay EU-C-fsn1-3
+    url: http://188.245.48.186:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
     __dangerous__body_down_if_text_missing: "OPEN"
-  - name: DDoS-Relay EU-C-fsn1-9
-    url: http://188.245.50.246:42069/;csv
+  - name: DDoS-Relay EU-C-fsn1-4
+    url: http://142.132.232.192:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
     __dangerous__body_down_if_text_missing: "OPEN"
   - name: DDoS-Relay EU-C-nbg1-2
