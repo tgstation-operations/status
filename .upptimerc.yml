@@ -3,24 +3,107 @@ owner: upptime # Your GitHub organization or username, where this repository liv
 repo: upptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
+  - name: Home Page
+    url: https://tgstation13.org
+  - name: Wiki
+    url: https://tgstation13.org/wiki/Ping
+    __dangerous__body_down_if_text_missing: "2623a561d632aqd1532frw"
+  - name: Forum
+    url: https://tgstation13.org/phpBB/viewtopic.php?p=302039
+    __dangerous__body_down_if_text_missing: "ajA23jA32wj9fdafr32AcjACw3m"
+  - name: VPN
+    url: $SECRET_VPN_URL
+  - name: TTS Webserver
+    url: $SECRET_TTS_WEBSERVER_URL
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
+  - name: TTS API
+    url: $SECRET_TTS_API_URL
+    headers:
+    - "Authorization: $SECRET_TTS_API_KEY"
+    __dangerous__body_degraded_if_text_missing: "OK: "
+  - name: TTS Generation
+    url: $SECRET_TTS_TEST_GEN_URL
+    headers:
+    - "Content-Type: application/json"
+    - "Authorization: $SECRET_TTS_API_KEY"
+    body: '{ "voice":"Man (NEET)", "text":"Help Maint" }'
+    maxResponseTime: 750
+  - name: Game Server Sybil
+    url: sybil.game.tgstation13.org
+    port: 1337
     check: "tcp-ping"
-    ipv6: true
+  - name: Game Server Basil
+    url: Basil.game.tgstation13.org
+    port: 2337
+    check: "tcp-ping"
+  - name: Game Server Terry
+    url: Terry.game.tgstation13.org
+    port: 3336
+    check: "tcp-ping"
+  - name: Game Server Manuel
+    url: Manuel.game.tgstation13.org
+    port: 1447
+    check: "tcp-ping"
+  - name: Game Server TGMC
+    url: TGMC.game.tgstation13.org
+    port: 5337
+    check: "tcp-ping"
+  - name: Game Server Campbell
+    url: Campbell.game.tgstation13.org
+    port: 6337
+    check: "tcp-ping"
+  - name: Game Server Events EU
+    url: terry.game.tgstation13.org
+    port: 4337
+    check: "tcp-ping"
+  - name: Game Server Events US
+    url: basil.game.tgstation13.org
+    port: 4447
+    check: "tcp-ping"
+  - name: DDoS-Relay EU-C-1-1
+    url: http://78.46.253.198:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+  - name: DDoS-Relay EU-C-1-2
+    url: http://167.235.254.130:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+  - name: DDoS-Relay EU-C-1-3
+    url: http://49.13.124.167:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+  - name: DDoS-Relay EU-C-1-4
+    url: http://188.245.50.246:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+  - name: DDoS-Relay EU-C-2-1
+    url: http://128.140.75.62:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+  - name: DDoS-Relay EU-C-2-2
+    url: http://128.140.77.59:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+  - name: DDoS-Relay EU-C-2-3
+    url: http://188.245.105.186:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+  - name: DDoS-Relay EU-N-1
+    url: http://37.27.84.228:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+  - name: DDoS-Relay US-E-1
+    url: http://5.161.250.73:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+  - name: DDoS-Relay US-E-2
+    url: http://5.161.186.237:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+  - name: DDoS-Relay US-W-1
+    url: http://5.78.91.168:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+  - name: DDoS-Relay US-W-2
+    url: http://5.78.111.66:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: status.tgstation13.org
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
@@ -31,6 +114,8 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+    - title: Back To /tg/Station13
+      href: https://tgstation13.org
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
