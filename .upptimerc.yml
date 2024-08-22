@@ -118,10 +118,6 @@ sites:
     url: http://188.245.105.186:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
     __dangerous__body_down_if_text_missing: "OPEN"
-  - name: DDoS-Relay EU-N-hel1-2
-    url: http://37.27.84.228:42069/;csv
-    __dangerous__body_degraded_if_text_missing: ",UP,"
-    __dangerous__body_down_if_text_missing: "OPEN"
   - name: DDoS-Relay US-E-ash-1
     url: http://5.161.250.73:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
@@ -130,12 +126,20 @@ sites:
     url: http://5.161.186.237:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
     __dangerous__body_down_if_text_missing: "OPEN"
+  - name: DDoS-Relay US-E-ash-4
+    url: http://5.161.201.13:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+    __dangerous__body_down_if_text_missing: "OPEN"
   - name: DDoS-Relay US-W-hil-1
     url: http://5.78.91.168:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
     __dangerous__body_down_if_text_missing: "OPEN"
   - name: DDoS-Relay US-W-hil-2
     url: http://5.78.111.66:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+    __dangerous__body_down_if_text_missing: "OPEN"
+  - name: DDoS-Relay US-W-hil-3
+    url: http://5.78.64.252:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
     __dangerous__body_down_if_text_missing: "OPEN"
 
