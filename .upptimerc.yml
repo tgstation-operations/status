@@ -149,6 +149,7 @@ status-website:
   cname: status.tgstation13.org
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/tgstation-operations/status/master/assets/tglogo.svg
+  faviconSvg: https://raw.githubusercontent.com/tgstation-operations/status/master/assets/tglogo.svg
   theme: night
   name: "/tg/Station 13 Status"
   introTitle: "/tg/Station 13 Live Server Status"
