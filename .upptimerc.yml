@@ -174,5 +174,9 @@ workflowSchedule:
   updates: "0 3 31 2 1"
   uptime: "*/5 * * * *"
 
+commitMessages:
+  commitAuthorName: "tgstation-server"
+  commitAuthorEmail: "tgstation-server@tgstation13.org"
+
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
