@@ -1,6 +1,7 @@
 # Change these first
 owner: tgstation-operations # Your GitHub organization or username, where this repository lives
 repo: status # The name of this repository
+skipDeleteIssues: true
 
 sites:
   - name: Home Page
@@ -138,6 +139,7 @@ status-website:
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/tgstation-operations/status/master/assets/tglogo.svg
   faviconSvg: https://raw.githubusercontent.com/tgstation-operations/status/master/assets/tglogo.svg
+  favicon: https://raw.githubusercontent.com/tgstation-operations/status/master/assets/tglogo.png
   theme: night
   name: "/tg/Station 13 Status"
   introTitle: "/tg/Station 13 Live Server Status"
