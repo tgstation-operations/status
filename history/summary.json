@@ -424,18 +424,20 @@
     "url": "http://144.126.221.210:42069/;csv",
     "icon": "https://icons.duckduckgo.com/ip3/144.126.221.210.ico",
     "slug": "d-do-s-relay-us-w-sfo3-01",
-    "status": "up",
+    "status": "degraded",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 318,
+    "time": 312,
     "timeDay": 133,
-    "timeWeek": 318,
-    "timeMonth": 318,
-    "timeYear": 318,
-    "dailyMinutesDown": {}
+    "timeWeek": 312,
+    "timeMonth": 312,
+    "timeYear": 312,
+    "dailyMinutesDown": {
+      "2024-08-27": 0
+    }
   },
   {
     "name": "DDoS-Relay US-W-sfo3-02",
