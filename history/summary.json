@@ -424,19 +424,19 @@
     "url": "http://144.126.221.210:42069/;csv",
     "icon": "https://icons.duckduckgo.com/ip3/144.126.221.210.ico",
     "slug": "d-do-s-relay-us-w-sfo3-01",
-    "status": "degraded",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 312,
-    "timeDay": 133,
-    "timeWeek": 312,
-    "timeMonth": 312,
-    "timeYear": 312,
+    "status": "up",
+    "uptime": "99.89%",
+    "uptimeDay": "99.59%",
+    "uptimeWeek": "99.89%",
+    "uptimeMonth": "99.89%",
+    "uptimeYear": "99.89%",
+    "time": 302,
+    "timeDay": 118,
+    "timeWeek": 302,
+    "timeMonth": 302,
+    "timeYear": 302,
     "dailyMinutesDown": {
-      "2024-08-27": 0
+      "2024-08-27": 6
     }
   },
   {
