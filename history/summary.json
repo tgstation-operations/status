@@ -354,19 +354,19 @@
     "url": "http://178.128.149.244:42069/;csv",
     "icon": "https://icons.duckduckgo.com/ip3/178.128.149.244.ico",
     "slug": "d-do-s-relay-us-e-nyc1-02",
-    "status": "down",
-    "uptime": "99.36%",
-    "uptimeDay": "96.22%",
-    "uptimeWeek": "99.36%",
-    "uptimeMonth": "99.36%",
-    "uptimeYear": "99.36%",
-    "time": 87,
-    "timeDay": 35,
-    "timeWeek": 87,
-    "timeMonth": 87,
-    "timeYear": 87,
+    "status": "up",
+    "uptime": "99.29%",
+    "uptimeDay": "95.81%",
+    "uptimeWeek": "99.29%",
+    "uptimeMonth": "99.29%",
+    "uptimeYear": "99.29%",
+    "time": 85,
+    "timeDay": 33,
+    "timeWeek": 85,
+    "timeMonth": 85,
+    "timeYear": 85,
     "dailyMinutesDown": {
-      "2024-08-29": 54
+      "2024-08-29": 60
     }
   },
   {
