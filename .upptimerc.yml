@@ -99,24 +99,12 @@ sites:
     url: http://46.101.211.76:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
     __dangerous__body_down_if_text_missing: "OPEN"
-  - name: DDoS-Relay EU-C-fra1-03
-    url: http://164.92.194.66:42069/;csv
-    __dangerous__body_degraded_if_text_missing: ",UP,"
-    __dangerous__body_down_if_text_missing: "OPEN"
-  - name: DDoS-Relay EU-C-fra1-04
-    url: http://209.38.241.92:42069/;csv
-    __dangerous__body_degraded_if_text_missing: ",UP,"
-    __dangerous__body_down_if_text_missing: "OPEN"
   - name: DDoS-Relay US-E-nyc1-01
     url: http://178.128.157.126:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
     __dangerous__body_down_if_text_missing: "OPEN"
   - name: DDoS-Relay US-E-nyc1-02
     url: http://178.128.149.244:42069/;csv
-    __dangerous__body_degraded_if_text_missing: ",UP,"
-    __dangerous__body_down_if_text_missing: "OPEN"
-  - name: DDoS-Relay US-E-nyc1-03
-    url: http://178.128.157.117:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
     __dangerous__body_down_if_text_missing: "OPEN"
   - name: DDoS-Relay US-W-sfo3-01
@@ -127,8 +115,20 @@ sites:
     url: http://144.126.222.59:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
     __dangerous__body_down_if_text_missing: "OPEN"
-  - name: DDoS-Relay US-W-sfo3-03
-    url: http://144.126.221.86:42069/;csv
+  - name: DDoS-Relay EU-W-lon1-01
+    url: http://165.22.122.245:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+    __dangerous__body_down_if_text_missing: "OPEN"
+  - name: DDoS-Relay EU-W-lon1-02
+    url: http://165.22.121.127:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+    __dangerous__body_down_if_text_missing: "OPEN"
+  - name: DDoS-Relay AU-syd1-01
+    url: http://170.64.170.126:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+    __dangerous__body_down_if_text_missing: "OPEN"
+  - name: DDoS-Relay AU-syd1-02
+    url: http://170.64.168.113:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
     __dangerous__body_down_if_text_missing: "OPEN"
 
