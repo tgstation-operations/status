@@ -334,9 +334,9 @@
     "url": "http://178.128.157.126:42069/;csv",
     "icon": "https://icons.duckduckgo.com/ip3/178.128.157.126.ico",
     "slug": "d-do-s-relay-us-e-nyc1-01",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -345,16 +345,18 @@
     "timeWeek": 62,
     "timeMonth": 62,
     "timeYear": 62,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-08-29": 0
+    }
   },
   {
     "name": "DDoS-Relay US-E-nyc1-02",
     "url": "http://178.128.149.244:42069/;csv",
     "icon": "https://icons.duckduckgo.com/ip3/178.128.149.244.ico",
     "slug": "d-do-s-relay-us-e-nyc1-02",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -363,7 +365,9 @@
     "timeWeek": 87,
     "timeMonth": 87,
     "timeYear": 87,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-08-29": 0
+    }
   },
   {
     "name": "DDoS-Relay US-W-sfo3-01",
