@@ -1,7 +1,7 @@
 url: $SECRET_TTS_API_URL
 status: up
 code: 200
-responseTime: 60
-lastUpdated: 2024-09-03T12:35:23.323Z
+responseTime: 64
+lastUpdated: 2024-09-03T12:51:10.915Z
 startTime: 2024-08-21T08:28:39.136Z
 generator: Upptime <https://github.com/upptime/upptime>
