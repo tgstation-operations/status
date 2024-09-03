@@ -131,6 +131,40 @@ sites:
     url: http://170.64.168.113:42069/;csv
     __dangerous__body_degraded_if_text_missing: ",UP,"
     __dangerous__body_down_if_text_missing: "OPEN"
+  
+  - name: DDoS-Relay lin-EU-C-fra-01
+    url: http://139.162.181.177:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+    __dangerous__body_down_if_text_missing: "OPEN"
+  - name: DDoS-Relay lin-EU-C-fra-02
+    url: http://172.104.128.38:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+    __dangerous__body_down_if_text_missing: "OPEN"
+  - name: DDoS-Relay lin-US-E-nj-01
+    url: http://97.107.140.73:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+    __dangerous__body_down_if_text_missing: "OPEN"
+  - name: DDoS-Relay lin-US-E-nj-02
+    url: http://97.107.140.132:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+    __dangerous__body_down_if_text_missing: "OPEN"
+  - name: DDoS-Relay lin-US-W-lax-01
+    url: http://172.233.157.179:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+    __dangerous__body_down_if_text_missing: "OPEN"
+  - name: DDoS-Relay lin-US-W-lax-02
+    url: http://172.233.152.17:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+    __dangerous__body_down_if_text_missing: "OPEN"
+  - name: DDoS-Relay lin-EU-W-lon2-01
+    url: http://172.236.29.5:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+    __dangerous__body_down_if_text_missing: "OPEN"
+  - name: DDoS-Relay lin-AU-syd1-01
+    url: http://194.195.251.189:42069/;csv
+    __dangerous__body_degraded_if_text_missing: ",UP,"
+    __dangerous__body_down_if_text_missing: "OPEN"
+  
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
