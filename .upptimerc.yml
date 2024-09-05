@@ -18,15 +18,6 @@ sites:
     __dangerous__body_down_if_text_missing: "ajA23jA32wj9fdafr32AcjACw3m"
     assignees:
       - MrStonedOne
-  - name: VPN
-    url: $SECRET_VPN_URL
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 403
-      - 404
-    assignees:
-      - MrStonedOne
   - name: TTS Webserver
     url: $SECRET_TTS_WEBSERVER_URL
     expectedStatusCodes:
