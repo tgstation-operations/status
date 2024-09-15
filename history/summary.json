@@ -77,8 +77,8 @@
     "slug": "tts-webserver",
     "status": "down",
     "uptime": "98.13%",
-    "uptimeDay": "52.47%",
-    "uptimeWeek": "93.21%",
+    "uptimeDay": "52.39%",
+    "uptimeWeek": "93.20%",
     "uptimeMonth": "98.13%",
     "uptimeYear": "98.13%",
     "time": 363,
@@ -87,7 +87,7 @@
     "timeMonth": 363,
     "timeYear": 363,
     "dailyMinutesDown": {
-      "2024-09-15": 685
+      "2024-09-15": 686
     }
   },
   {
@@ -97,8 +97,8 @@
     "slug": "tts-api",
     "status": "down",
     "uptime": "98.13%",
-    "uptimeDay": "52.50%",
-    "uptimeWeek": "93.21%",
+    "uptimeDay": "52.43%",
+    "uptimeWeek": "93.20%",
     "uptimeMonth": "98.13%",
     "uptimeYear": "98.13%",
     "time": 85,
@@ -107,7 +107,7 @@
     "timeMonth": 85,
     "timeYear": 85,
     "dailyMinutesDown": {
-      "2024-09-15": 684
+      "2024-09-15": 685
     }
   },
   {
@@ -117,8 +117,8 @@
     "slug": "tts-generation",
     "status": "down",
     "uptime": "98.02%",
-    "uptimeDay": "52.54%",
-    "uptimeWeek": "93.22%",
+    "uptimeDay": "52.47%",
+    "uptimeWeek": "93.21%",
     "uptimeMonth": "98.02%",
     "uptimeYear": "98.02%",
     "time": 358,
@@ -127,7 +127,7 @@
     "timeMonth": 358,
     "timeYear": 358,
     "dailyMinutesDown": {
-      "2024-09-15": 683,
+      "2024-09-15": 684,
       "2024-08-21": 41
     }
   },
@@ -287,7 +287,7 @@
     "status": "degraded",
     "uptime": "90.97%",
     "uptimeDay": "0.00%",
-    "uptimeWeek": "80.30%",
+    "uptimeWeek": "80.29%",
     "uptimeMonth": "90.97%",
     "uptimeYear": "90.97%",
     "time": 239,
@@ -296,7 +296,7 @@
     "timeMonth": 239,
     "timeYear": 239,
     "dailyMinutesDown": {
-      "2024-09-15": 1118,
+      "2024-09-15": 1119,
       "2024-09-14": 867,
       "2024-09-07": 14,
       "2024-09-05": 19,
