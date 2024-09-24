@@ -1,7 +1,7 @@
 url: $SECRET_TTS_TEST_GEN_URL
-status: up
+status: degraded
 code: 200
-responseTime: 475
-lastUpdated: 2024-09-24T12:53:51.661Z
+responseTime: 599
+lastUpdated: 2024-09-24T14:50:45.731Z
 startTime: 2024-08-21T08:28:39.505Z
 generator: Upptime <https://github.com/upptime/upptime>
