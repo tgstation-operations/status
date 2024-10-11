@@ -1,7 +1,7 @@
 url: $SECRET_TTS_WEBSERVER_URL
 status: up
 code: 403
-responseTime: 483
-lastUpdated: 2024-10-11T01:54:30.576Z
+responseTime: 451
+lastUpdated: 2024-10-11T04:35:04.379Z
 startTime: 2024-08-21T08:28:38.606Z
 generator: Upptime <https://github.com/upptime/upptime>
