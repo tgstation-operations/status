@@ -1,7 +1,7 @@
 url: http://139.162.181.177:42069/;csv
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-01-05T13:54:21.468Z
+status: up
+code: 200
+responseTime: 174
+lastUpdated: 2025-01-05T14:16:46.014Z
 startTime: 2024-09-03T12:35:42.821Z
 generator: Upptime <https://github.com/upptime/upptime>
